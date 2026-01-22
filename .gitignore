@@ -1,23 +1,20 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Virtual environment
-env/
+.env
 venv/
+env/
 
 # OS
 .DS_Store
-Thumbs.db
-
-# Model caches
-.cache/
-models/
 
 # Logs
-*.log
+logs/
 
-# Secrets
-.env
+# Data outputs
+data_processed/
+uploads/
+corpus.json
+
+# BUT DO NOT IGNORE MODELS (for now)
+# models/
